@@ -1,0 +1,13 @@
+pydantic
+langchain
+ipykernel
+langchain-openai
+python-dotenv
+langchain-community
+pypdf
+langchain-text-splitters
+chromadb
+bs4
+faiss-cpu
+firecrawl-py
+spider_client
