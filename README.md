@@ -1,16 +1,18 @@
-🚀 Built Something Amazing with LangChain, OpenAI, and FAISS! 🚀
+🚀 Automated Web Content Search with LangChain, OpenAI, and FAISS
 
-Recently, I set out to automate the process of crawling my website, extracting all links, loading and chunking the content, and then making it searchable using state-of-the-art vector embeddings and retrieval-augmented generation (RAG).
+I recently built an end-to-end pipeline to automate crawling my website, processing the content, and enabling natural language search using cutting-edge tools like LangChain, OpenAI, and FAISS.
 
-Here’s how I did it:
+🔧 What I Did:
+	•	Crawled internal links using Python and BeautifulSoup to recursively gather all content from my website.
+	•	Loaded web pages with LangChain’s WebBaseLoader.
+	•	Chunked the content using RecursiveCharacterTextSplitter for better processing.
+	•	Generated vector embeddings with OpenAI and stored them in a FAISS vector database for fast, similarity-based retrieval.
+	•	Built a retrieval-augmented generation (RAG) pipeline using a GPT-4o LLM to answer natural language queries based on my site’s content.
 
-Used Python and BeautifulSoup to recursively crawl and collect all internal links from my site.
-Leveraged LangChain’s WebBaseLoader to fetch and load all the content.
-Split the content into manageable chunks using RecursiveCharacterTextSplitter.
-Created vector embeddings with OpenAI and stored them in a FAISS vector database for fast similarity search.
-Built a retrieval chain with a GPT-4o LLM to answer questions based on my website’s content!
-Now, I can ask natural language questions and get context-aware answers from my own site. Super excited about the possibilities this unlocks for knowledge management and search!
+Now, I can query my own website with natural language and get accurate, context-aware responses — unlocking powerful new ways to manage and search my content!
 
-#AI #LangChain #OpenAI #FAISS #Python #WebScraping #LLM #RAG
+⸻
 
-Feel free to personalize further!
+#LangChain #OpenAI #FAISS #RAG #LLM #Python #WebScraping #AI
+
+Let me know if you’d like it tailored for a more technical or casual audience.
